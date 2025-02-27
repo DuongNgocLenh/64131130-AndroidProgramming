@@ -1,14 +1,19 @@
-# 64131130-AndroidProgramming
-Lưu trữ bài tập
+# 64131130 - Android Programming  
+📌 **Lưu trữ bài tập**  
 
-### Ex1:
-  
-![image](https://github.com/user-attachments/assets/be0c1a04-82cd-4dde-a9ac-250d956c97f3)
+---
 
-### Ex2+3:
-  
-![image](https://github.com/user-attachments/assets/ad5fe843-30da-4968-8304-d3a0cd9400f9)
+## 🔹 Bài 1  
+![Bài 1](https://github.com/user-attachments/assets/be0c1a04-82cd-4dde-a9ac-250d956c97f3)
 
-### Ex4:
-  
-![image](https://github.com/user-attachments/assets/8d0ae887-f176-464f-b039-42f6b6b70030)
+---
+
+## 🔹 Bài 2 & 3  
+![Bài 2 & 3](https://github.com/user-attachments/assets/ad5fe843-30da-4968-8304-d3a0cd9400f9)
+
+---
+
+## 🔹 Bài 4  
+![Bài 4](https://github.com/user-attachments/assets/8d0ae887-f176-464f-b039-42f6b6b70030)
+
+---
