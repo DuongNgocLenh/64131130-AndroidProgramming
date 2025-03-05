@@ -23,3 +23,14 @@
 </p>
 
 ---
+Bài 5_AddSubMulDiv_Anynomous:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6567cc8b-feb0-47bf-9568-b52d5f5d839c" alt="Bài 4" width="500">
+</p>
+
+---
+## 🔹 Bài 5_AddSubMulDiv_Var:  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f952c839-f08c-4f4c-8a9b-1dbd977ea32a" alt="Bài 5" width="500">
+</p>
+---
