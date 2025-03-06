@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ex_Intent1</string>
+    <string name="title_activity_sub_one">activity_sub_one</string>
+</resources>
