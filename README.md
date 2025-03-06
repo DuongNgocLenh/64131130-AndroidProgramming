@@ -42,11 +42,12 @@
 
 ---
 ## 🔹 Bài 6_Intent: 
-<div style="display: flex; justify-content: space-around; align-items: center;">
+<div style="display: flex; justify-content: center; gap: 50px; align-items: center;">
   <img src="https://github.com/user-attachments/assets/726060e8-8b55-49ee-828b-3ae05a4bc1d9" alt="Image 1" width="200">
   <img src="https://github.com/user-attachments/assets/1fff2d36-959b-4bc8-9d60-5bded65b281a" alt="Image 2" width="200">
   <img src="https://github.com/user-attachments/assets/5b0c522b-de8d-42d8-ba31-287ab6d15c9e" alt="Image 3" width="200">
 </div>
+
 
 ---
 ## 🔹 Bài 7_IntentLogin: 
