@@ -53,11 +53,12 @@
 ## 🔹 Bài 7_IntentLogin: 
 <p align="center">
   <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-    <img src="https://github.com/user-attachments/assets/42a83176-1223-4c0f-8bcb-6c55b152f00d" alt="Image 1" width="200">
-    <img src="https://github.com/user-attachments/assets/74dac40a-448a-4695-809a-b9c45713faec" alt="Image 2" width="200">
-    <img src="https://github.com/user-attachments/assets/f4bb5c74-3939-48dc-a819-452141a7884f" alt="Image 3" width="200">
+    <img src="https://github.com/user-attachments/assets/0218a2b9-ab24-4a9d-b60f-46314abac0d8" alt="Image 1" width="200">
+    <img src="https://github.com/user-attachments/assets/06f88116-363c-4238-8abd-cf7541be9aab" alt="Image 2" width="200">
+    <img src="https://github.com/user-attachments/assets/97da81c1-51f0-46d8-b1fc-5302951ba31c" alt="Image 3" width="200">
   </div>
 </p>
+
 
 
 
