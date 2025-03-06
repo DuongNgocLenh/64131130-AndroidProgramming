@@ -10,24 +10,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class SubActivityOne1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sub_one1);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
-    public void ChuyenManHinh(View v){
-        Intent iManHinhKhac = new Intent(packetContext: this, SubActivityOne.class);
-        startActivity(iManHinhKhac);
-    }
-
-    public void QuayVe(View view) {
+    public void QuayVe(View v){
+        Intent iManHinhCHINH = new Intent (packageContext: this, MainActivity.class);
+        startActivity(iManHinhCHINH);
     }
 }
