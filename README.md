@@ -52,8 +52,13 @@
 ---
 ## 🔹 Bài 7_IntentLogin: 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/775c2560-ae87-4623-939d-20a2595e662e" alt="Bài 5" width="500">
+  <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+    <img src="https://github.com/user-attachments/assets/42a83176-1223-4c0f-8bcb-6c55b152f00d" alt="Image 1" width="200">
+    <img src="https://github.com/user-attachments/assets/74dac40a-448a-4695-809a-b9c45713faec" alt="Image 2" width="200">
+    <img src="https://github.com/user-attachments/assets/f4bb5c74-3939-48dc-a819-452141a7884f" alt="Image 3" width="200">
+  </div>
 </p>
+
 
 
 
