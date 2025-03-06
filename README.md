@@ -34,3 +34,8 @@
   <img src="https://github.com/user-attachments/assets/70d2bc8c-829e-4e49-99b5-f3da62118d6b" alt="Bài 5" width="500">
 </p>
 
+---
+## 🔹 Bài 5_AddSubMulDiv_ActivityAsListen:  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f745bfcb-5b55-4aba-856d-c3b8f7194f10" alt="Bài 5" width="500">
+</p>
