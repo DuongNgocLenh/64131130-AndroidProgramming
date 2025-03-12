@@ -1,6 +1,7 @@
 package ntu.duongngoclenh.ex_listview;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         listViewNNLT = findViewById(R.id.lvNNLT);
+        //Chuan bi du lieu, hard-core
+        dsNgonNguLT = new ArrayList<String>();
+        dsNgonNguLT.add("Python");
+        dsNgonNguLT.add("Java");
 
     }
 }
