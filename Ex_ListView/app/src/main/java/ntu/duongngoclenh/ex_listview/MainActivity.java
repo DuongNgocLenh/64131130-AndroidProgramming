@@ -1,6 +1,7 @@
 package ntu.duongngoclenh.ex_listview;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         dsNgonNguLT = new ArrayList<String>();
         dsNgonNguLT.add("Python");
         dsNgonNguLT.add("Java");
+        ArrayAdapter<String> adapterNNLT;
+        adapterNNLT = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1)
 
     }
 }
