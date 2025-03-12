@@ -39,3 +39,27 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f745bfcb-5b55-4aba-856d-c3b8f7194f10" alt="Bài 5" width="500">
 </p>
+
+---
+## 🔹 Bài 6_Intent: 
+<div style="display: flex; justify-content: center; gap: 50px; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/726060e8-8b55-49ee-828b-3ae05a4bc1d9" alt="Image 1" width="200">
+  <img src="https://github.com/user-attachments/assets/1fff2d36-959b-4bc8-9d60-5bded65b281a" alt="Image 2" width="200">
+  <img src="https://github.com/user-attachments/assets/5b0c522b-de8d-42d8-ba31-287ab6d15c9e" alt="Image 3" width="200">
+</div>
+
+
+---
+## 🔹 Bài 7_IntentLogin: 
+<p align="center">
+  <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+    <img src="https://github.com/user-attachments/assets/0218a2b9-ab24-4a9d-b60f-46314abac0d8" alt="Image 1" width="200">
+    <img src="https://github.com/user-attachments/assets/06f88116-363c-4238-8abd-cf7541be9aab" alt="Image 2" width="200">
+    <img src="https://github.com/user-attachments/assets/97da81c1-51f0-46d8-b1fc-5302951ba31c" alt="Image 3" width="200">
+  </div>
+</p>
+
+
+
+
+
