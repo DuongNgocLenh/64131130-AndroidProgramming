@@ -40,7 +40,8 @@
         }
 
         //Xu Ly Cong
-        public void XuLyCong(View v){
+        public void XuLyCo
+        ng(View v){
             //xu ly code
             String sothu1 = so1.getText().toString();
             String sothu2 = so2.getText().toString();
