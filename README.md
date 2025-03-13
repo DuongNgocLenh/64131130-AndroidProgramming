@@ -72,5 +72,9 @@
   <img src="https://github.com/user-attachments/assets/af13918d-9382-4df3-b672-a20b83b138f1" alt="Bài loginpage" width="500">
 </p>
 
-
+---
+## 🔹 Bài thêm ModernDashBoard: 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1e9b295c-4516-47c1-ade7-9960c45c3b09" alt="Bài loginpage" width="500">
+</p>
 
