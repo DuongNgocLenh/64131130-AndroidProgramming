@@ -75,6 +75,6 @@
 ---
 ## 🔹 Bài thêm ModernDashBoard: 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0c1c94f4-8eb9-4b57-8aae-5f5c431e0a24" alt="Bài loginpage" width="500">
+  <img src="https://github.com/user-attachments/assets/1e9b295c-4516-47c1-ade7-9960c45c3b09" alt="Bài loginpage" width="500">
 </p>
 
