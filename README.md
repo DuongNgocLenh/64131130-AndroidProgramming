@@ -64,6 +64,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e3bb775b-0b3e-469a-8a1b-fabfe87afef7" alt="Bài 5" width="500">
 </p>
+---
 ## 🔹 Bài thêm LoginPage: 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/af13918d-9382-4df3-b672-a20b83b138f1" alt="Bài 5" width="500">
