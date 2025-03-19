@@ -116,10 +116,10 @@ public class MainActivity extends AppCompatActivity {
         kiemtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int num1 = Integer.parseInt(soA.getText().toString());
-                int num2 = Integer.parseInt(soB.getText().toString());
-                int kiemtrakq = Integer.parseInt(ketqua.getText().toString());
-                int kqdung = 0;
+                Float num1 = Float.parseFloat(soA.getText().toString());
+                Float num2 = Float.parseFloat(soB.getText().toString());
+                Float kiemtrakq = Float.parseFloat(ketqua.getText().toString());
+                Float kqdung = 0;
                 String pt = pheptinh.getText().toString();
                 switch (pt){
                     case "+":
