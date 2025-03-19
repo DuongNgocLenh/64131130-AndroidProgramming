@@ -40,8 +40,9 @@ public class MainActivity extends AppCompatActivity {
     void SinhSoNgauNhien(){
         int a = (int) (Math.random() * 5)+1;
         int b = (int) (Math.random() * 5)+1;
-        String pt = ;
-        pt.setText(String.valueOf())
+        String pt4[] = {"+","-","*","/"};
+        String pt =pt4[(int)(Math.random()*4)];
+        pheptinh.setText(String.valueOf(pt));
         soA.setText(String.valueOf(a));
         soB.setText(String.valueOf(b));
     }
