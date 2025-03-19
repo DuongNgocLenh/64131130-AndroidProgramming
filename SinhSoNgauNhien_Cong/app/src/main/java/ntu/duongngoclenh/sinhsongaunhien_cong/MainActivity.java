@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         btn9 = findViewById(R.id.btn9);
     }
     void SinhSoNgauNhien(){
-        int a = (int) (Math.random() * 5);
-        int b = (int) (Math.random() * 5);
+        int a = (int) (Math.random() * 5)+1;
+        int b = (int) (Math.random() * 5)+1;
         soA.setText(String.valueOf(a));
         soB.setText(String.valueOf(b));
     }
