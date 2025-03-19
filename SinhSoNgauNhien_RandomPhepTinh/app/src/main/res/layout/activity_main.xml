@@ -175,17 +175,18 @@
         android:id="@+id/btntp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
         android:text="."
-        app:layout_constraintTop_toBottomOf="@+id/btn8"
-        tools:layout_editor_absoluteX="138dp" />
+        app:layout_constraintStart_toEndOf="@+id/btndlt"
+        app:layout_constraintTop_toBottomOf="@+id/btn8" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btndlt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="28dp"
-        android:text="Button"
+        android:text="Delete"
         app:layout_constraintEnd_toStartOf="@+id/btntp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn7" />
