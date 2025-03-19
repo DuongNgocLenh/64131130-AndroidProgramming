@@ -91,7 +91,9 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="false"
+        />
 
     <Button
         android:id="@+id/btn1"
