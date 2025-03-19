@@ -163,9 +163,11 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(kqdung == kiemtrakq){
                     Toast.makeText(MainActivity.this,"Ket qua dung!",Toast.LENGTH_SHORT).show();
+                    ketqua.setText("");
                 }else
                 {
                     Toast.makeText(MainActivity.this,"Ket qua sai!",Toast.LENGTH_SHORT).show();
+                    ketqua.setText("");
                 }
                 SinhSoNgauNhien();
             }
