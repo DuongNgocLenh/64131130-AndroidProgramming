@@ -119,7 +119,27 @@ public class MainActivity extends AppCompatActivity {
                 int num1 = Integer.parseInt(soA.getText().toString());
                 int num2 = Integer.parseInt(soB.getText().toString());
                 int kiemtrakq = Integer.parseInt(ketqua.getText().toString());
-                int kqdung = num1 + num2;
+                int kqdung = 0;
+                String pt = pheptinh.getText().toString();
+                switch (pt){
+                    case "+":
+                        kqdung = num1+num2;
+                        break;
+                    case "-":
+                        kqdung = num1-num2;
+                        if(kqdung < 0){
+                            Toast.makeText(MainActivity.this,"Ket qua < 0",Toast.LENGTH_SHORT).show();
+                        }
+                        break;
+                    case "*":
+                        kqdung = num1*num2;
+                        break;
+                    case "/":
+                        kqdung = num1/num2;
+                        if(num2==0){
+                            Toast.makeText(MainActivity.this,"Khong the chia 0!",Toast.LENGTH_SHORT).show();
+                        }
+                }
                 if(kqdung == kiemtrakq){
                     Toast.makeText(MainActivity.this,"Ket qua dung!",Toast.LENGTH_SHORT).show();
                 }else
