@@ -56,11 +56,11 @@
         android:layout_marginTop="100dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/editTextText3"
+        app:layout_constraintStart_toEndOf="@+id/PhepTinh"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/PhepTinh"
         android:layout_width="20dp"
         android:layout_height="41dp"
         android:layout_marginStart="12dp"

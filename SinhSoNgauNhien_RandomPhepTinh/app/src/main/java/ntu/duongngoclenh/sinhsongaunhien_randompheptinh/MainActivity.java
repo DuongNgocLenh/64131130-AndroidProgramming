@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     EditText soB;
     EditText ketqua;
     Button kiemtra;
+    EditText pheptinh;
+
     Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
     public void TimDieuKhien(){
         soA = findViewById(R.id.edtA);
@@ -33,10 +35,13 @@ public class MainActivity extends AppCompatActivity {
         btn7 = findViewById(R.id.btn7);
         btn8 = findViewById(R.id.btn8);
         btn9 = findViewById(R.id.btn9);
+        pheptinh = findViewById(R.id.PhepTinh);
     }
     void SinhSoNgauNhien(){
         int a = (int) (Math.random() * 5)+1;
         int b = (int) (Math.random() * 5)+1;
+        String pt = ;
+        pt.setText(String.valueOf())
         soA.setText(String.valueOf(a));
         soB.setText(String.valueOf(b));
     }
