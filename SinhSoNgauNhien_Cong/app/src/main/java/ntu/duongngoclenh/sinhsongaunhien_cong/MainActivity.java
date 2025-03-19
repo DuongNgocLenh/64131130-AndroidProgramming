@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     void SinhSoNgauNhien(){
         int a = (int) (Math.random() * 5);
         int b = (int) (Math.random() * 5);
-        int kqdung = a+b;
         soA.setText(String.valueOf(a));
         soB.setText(String.valueOf(b));
     }
@@ -54,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         kiemtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                String check = ketqua.getText().toString();
+                int so1 =
             }
         });
     }
