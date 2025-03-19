@@ -88,11 +88,10 @@
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="100dp"
+        android:inputType="number"
         android:ems="10"
-        android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        android:focusable="false"
         />
 
     <Button
