@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     Button kiemtra;
     EditText pheptinh;
     Button thapphan;
-    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
+    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,delete;
     public void TimDieuKhien(){
         soA = findViewById(R.id.edtA);
         soB = findViewById(R.id.edtB);
@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         btn9 = findViewById(R.id.btn9);
         pheptinh = findViewById(R.id.PhepTinh);
         thapphan = findViewById(R.id.btntp);
+        delete = findViewById(R.id.btndlt);
     }
     void SinhSoNgauNhien(){
         int a = (int) (Math.random() * 5)+1;
@@ -120,14 +121,20 @@ public class MainActivity extends AppCompatActivity {
                 ketqua.append(".");
             }
         });
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ketqua.setText("");
+            }
+        });
         kiemtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Double num1 = Double.parseDouble(soA.getText().toString());
-                Double num2 = Double.parseDouble(soB.getText().toString());
-                Double kiemtrakq = Double.parseDouble(ketqua.getText().toString());
+                double num1 = Double.parseDouble(soA.getText().toString());
+                double num2 = Double.parseDouble(soB.getText().toString());
+                double kiemtrakq = Double.parseDouble(ketqua.getText().toString());
                 String pt = pheptinh.getText().toString();
-                Double kqdung = 0.0;
+                double kqdung = 0.0;
                 switch (pt){
                     case "+":
                         kqdung = num1+num2;
