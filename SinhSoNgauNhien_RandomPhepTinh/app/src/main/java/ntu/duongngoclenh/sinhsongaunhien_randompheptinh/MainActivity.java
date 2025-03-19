@@ -20,12 +20,13 @@ public class MainActivity extends AppCompatActivity {
     Button kiemtra;
     EditText pheptinh;
     Button thapphan;
-    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,delete;
+    Button btn0, btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,delete;
     public void TimDieuKhien(){
         soA = findViewById(R.id.edtA);
         soB = findViewById(R.id.edtB);
         ketqua = findViewById(R.id.KQ);
         kiemtra = findViewById(R.id.KT);
+        btn0 = findViewById(R.id.btn0);
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
@@ -60,6 +61,12 @@ public class MainActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+        btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ketqua.append("0");
+            }
         });
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

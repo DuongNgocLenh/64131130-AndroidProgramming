@@ -175,7 +175,7 @@
         android:id="@+id/btntp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="30dp"
         android:text="."
         app:layout_constraintStart_toEndOf="@+id/btndlt"
         app:layout_constraintTop_toBottomOf="@+id/btn8" />
@@ -190,4 +190,13 @@
         app:layout_constraintEnd_toStartOf="@+id/btntp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn7" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/btntp"
+        app:layout_constraintTop_toBottomOf="@+id/btn9" />
 </androidx.constraintlayout.widget.ConstraintLayout>
