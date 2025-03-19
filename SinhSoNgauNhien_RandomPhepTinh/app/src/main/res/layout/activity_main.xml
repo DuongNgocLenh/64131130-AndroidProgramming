@@ -170,4 +170,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtB"
         app:layout_constraintVertical_bias="0.495" />
+
+    <Button
+        android:id="@+id/btntp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        app:layout_constraintTop_toBottomOf="@+id/btn8"
+        tools:layout_editor_absoluteX="138dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="28dp"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="@+id/btntp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
