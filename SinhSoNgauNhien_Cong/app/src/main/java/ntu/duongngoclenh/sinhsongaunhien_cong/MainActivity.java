@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.view.View;
+import android.widget.Toast;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -16,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     EditText ketqua;
     Button kiemtra;
     Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
-    void TimDieuKhien(){
+    public void TimDieuKhien(){
         soA = findViewById(R.id.edtA);
         soB = findViewById(R.id.edtB);
         ketqua = findViewById(R.id.KQ);
@@ -50,11 +52,32 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ketqua.setText("1");
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ketqua.setText("1");
+            }
+        });
         kiemtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String check = ketqua.getText().toString();
-                int so1 =
+                int num1 = Integer.parseInt(soA.getText().toString());
+                int num2 = Integer.parseInt(soB.getText().toString());
+                int kiemtrakq = Integer.parseInt(ketqua.getText().toString());
+                int kqdung = num1 + num2;
+                if(kqdung == kiemtrakq){
+                    Toast.makeText(MainActivity.this,"Ket qua dung!",Toast.LENGTH_SHORT).show();
+                }else
+                {
+                    Toast.makeText(MainActivity.this,"Ket qua sai!",Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
     }
