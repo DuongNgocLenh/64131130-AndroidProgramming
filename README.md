@@ -78,3 +78,15 @@
   <img src="https://github.com/user-attachments/assets/1e9b295c-4516-47c1-ade7-9960c45c3b09" alt="Bài loginpage" width="500">
 </p>
 
+
+---
+## 🔹 Bài Random số (chỉ phép cộng): 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fcc4ce27-71ae-4d08-9ecc-03464ba0d4ae" alt="Bài loginpage" width="500">
+</p>
+
+---
+## 🔹 Bài Random số & phép tính: 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f9fbdf9-320d-4d56-b3ce-830783e3364d" alt="Bài loginpage" width="500">
+</p>
