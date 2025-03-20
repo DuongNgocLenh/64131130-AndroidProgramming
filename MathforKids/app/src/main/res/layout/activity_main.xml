@@ -45,7 +45,7 @@
         app:srcCompat="@drawable/hello" />
 
     <Button
-        android:id="@+id/count"
+        android:id="@+id/mathcount"
         android:layout_width="140dp"
         android:layout_height="160dp"
         android:layout_marginStart="52dp"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/math"
+        android:id="@+id/mathmatch"
         android:layout_width="140dp"
         android:layout_height="160dp"
         android:layout_marginStart="24dp"
@@ -69,32 +69,35 @@
         android:textColor="#A0E7E5"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/count"
+        app:layout_constraintStart_toEndOf="@+id/mathcount"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/india"
         android:layout_width="140dp"
         android:layout_height="160dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
         android:background="#18B74B"
         android:text="India"
         android:textColor="#EDC463"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/math"
-        tools:layout_editor_absoluteX="216dp" />
+        app:layout_constraintStart_toEndOf="@+id/mathpattern"
+        app:layout_constraintTop_toBottomOf="@+id/mathmatch" />
 
     <Button
-        android:id="@+id/China"
+        android:id="@+id/mathpattern"
         android:layout_width="140dp"
         android:layout_height="160dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
         android:background="#18B74B"
         android:text="China"
         android:textColor="#BE3E53"
         android:textSize="25sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="545dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mathcount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button english = findViewById(R.id.count);
-        Button france = findViewById(R.id.math);
-        Button china = findViewById(R.id.China);
+        Button english = findViewById(R.id.mathcount);
+        Button france = findViewById(R.id.mathmatch);
+        Button china = findViewById(R.id.mathpattern);
         Button india = findViewById(R.id.india);
         english.setOnClickListener(new View.OnClickListener() {
             @Override

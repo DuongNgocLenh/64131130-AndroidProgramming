@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -25,7 +26,6 @@
             android:id="@+id/textView4"
             android:layout_width="300dp"
             android:layout_height="73dp"
-            android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
             android:text="MATH IS FUN"
@@ -45,70 +45,116 @@
         app:srcCompat="@drawable/mode" />
 
     <Button
-        android:id="@+id/count"
+        android:id="@+id/mathcount"
         android:layout_width="140dp"
         android:layout_height="160dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
         android:background="#18B74B"
-        android:textColor="#18B74B"
-        android:textSize="25sp"
+        android:backgroundTint="#18B74B"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="100dp"
+        android:text="Count"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:textColor="#18B74B" />
 
     <Button
-        android:id="@+id/math"
+        android:id="@+id/mathmatch"
         android:layout_width="140dp"
         android:layout_height="160dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
         android:background="#18B74B"
+        android:paddingTop="100dp"
+        android:text="Match"
         android:textColor="#A0E7E5"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/count"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/mathcount"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:textColor="#1BA7A6" />
 
     <Button
-        android:id="@+id/india"
+        android:id="@+id/mathpattern"
         android:layout_width="140dp"
         android:layout_height="160dp"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
         android:background="#18B74B"
-        android:text="India"
-        android:textColor="#EDC463"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/China"
-        tools:layout_editor_absoluteY="545dp" />
-
-    <Button
-        android:id="@+id/China"
-        android:layout_width="140dp"
-        android:layout_height="160dp"
-        android:layout_marginStart="36dp"
-        android:background="#18B74B"
-        android:text="China"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="100dp"
+        android:text="Pattern"
         android:textColor="#BE3E53"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="545dp" />
+        app:layout_constraintTop_toBottomOf="@+id/mathcount" />
+
+    <Button
+        android:id="@+id/mathsetting"
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:background="#18B74B"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="100dp"
+        android:text="Setting"
+        android:textColor="#EDC463"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/mathpattern"
+        app:layout_constraintTop_toBottomOf="@+id/mathmatch" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/count"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="408dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/mathmatch"
+        app:layout_constraintEnd_toEndOf="@+id/mathmatch"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/mathmatch"
+        app:layout_constraintTop_toTopOf="@+id/mathmatch"
+        app:layout_constraintVertical_bias="0.214"
+        app:srcCompat="@drawable/match" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/count_text"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/mathpattern"
+        app:layout_constraintEnd_toEndOf="@+id/mathpattern"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="@+id/mathpattern"
+        app:layout_constraintTop_toTopOf="@+id/mathpattern"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pattern" />
 
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="72dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mathsetting"
+        app:layout_constraintEnd_toEndOf="@+id/mathsetting"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/mathsetting"
+        app:layout_constraintTop_toTopOf="@+id/mathsetting"
+        app:layout_constraintVertical_bias="0.224"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/mathcount"
+        app:layout_constraintEnd_toEndOf="@+id/mathcount"
+        app:layout_constraintStart_toStartOf="@+id/mathcount"
+        app:layout_constraintTop_toTopOf="@+id/mathcount"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/count" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
