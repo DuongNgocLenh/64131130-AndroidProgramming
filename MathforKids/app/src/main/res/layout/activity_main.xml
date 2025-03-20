@@ -61,8 +61,12 @@
             android:layout_width="131dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:text="TextView" />
+            android:text="English"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -72,9 +76,19 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="#1BA7A6"
+        android:onClick="France"
         app:layout_constraintStart_toEndOf="@+id/cardView"
         app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="131dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="France"
+            android:textSize="25dp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -83,9 +97,20 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#FBE7C6"
+        android:onClick="India"
         app:layout_constraintStart_toEndOf="@+id/cardView3"
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
 
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="131dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="India"
+            android:textSize="25dp"
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -95,8 +120,20 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#BE3E53"
+        android:onClick="China"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView" >
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="131dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="China"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
     </androidx.cardview.widget.CardView>
 
