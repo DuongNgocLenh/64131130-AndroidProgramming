@@ -1,6 +1,9 @@
 package ntu.duongngoclenh.mathforkids;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +22,34 @@ public class Bear extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+        Button da1 = findViewById(R.id.da1);
+        Button da2 = findViewById(R.id.da2);
+        Button da3 = findViewById(R.id.da3);
+        Button da4 = findViewById(R.id.da4);
+        da1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Bear.this,"Đáp án sai!",Toast.LENGTH_SHORT).show();
+            }
+        });
+        da2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Bear.this,"Đáp án sai!",Toast.LENGTH_SHORT).show();
+            }
+        });
+        da3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Bear.this,"Đáp án đúng!",Toast.LENGTH_SHORT).show();
+            }
+        });
+        da4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Bear.this,"Đáp án sai!",Toast.LENGTH_SHORT).show();
+            }
         });
     }
 }
