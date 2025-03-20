@@ -3,6 +3,7 @@ package ntu.duongngoclenh.mathforkids;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -27,5 +28,12 @@ public class MainActivity extends AppCompatActivity {
         Button france = findViewById(R.id.france);
         Button china = findViewById(R.id.China);
         Button india = findViewById(R.id.india);
+        english.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mode = new Intent(MainActivity.this,Mode.class);
+                startActivity(mode);
+            }
+        });
    }
 }
