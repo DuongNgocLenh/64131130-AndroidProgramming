@@ -45,7 +45,7 @@
         app:srcCompat="@drawable/hello" />
 
     <Button
-        android:id="@+id/english"
+        android:id="@+id/count"
         android:layout_width="140dp"
         android:layout_height="160dp"
         android:layout_marginStart="52dp"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/france"
+        android:id="@+id/math"
         android:layout_width="140dp"
         android:layout_height="160dp"
         android:layout_marginStart="24dp"
@@ -69,7 +69,7 @@
         android:textColor="#A0E7E5"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/english"
+        app:layout_constraintStart_toEndOf="@+id/count"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
@@ -82,7 +82,7 @@
         android:textColor="#EDC463"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/france"
+        app:layout_constraintTop_toBottomOf="@+id/math"
         tools:layout_editor_absoluteX="216dp" />
 
     <Button

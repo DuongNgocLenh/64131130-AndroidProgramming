@@ -1,7 +1,6 @@
 package ntu.duongngoclenh.mathforkids;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button english = findViewById(R.id.english);
-        Button france = findViewById(R.id.france);
+        Button english = findViewById(R.id.count);
+        Button france = findViewById(R.id.math);
         Button china = findViewById(R.id.China);
         Button india = findViewById(R.id.india);
         english.setOnClickListener(new View.OnClickListener() {
