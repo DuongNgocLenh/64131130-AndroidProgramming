@@ -2,6 +2,13 @@
 📌 **Lưu trữ bài tập**  
 
 ---
+## 🔹Kid Learning
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ed409232-32db-450e-8648-b902271bddf5" alt="" width="500">
+  <img src="https://github.com/user-attachments/assets/4bd6db88-b773-44f8-9991-32bff51093f1" alt="" width="500">
+</p>
+
+---
 
 ## 🔹 Bài 1  
 <p align="center">
