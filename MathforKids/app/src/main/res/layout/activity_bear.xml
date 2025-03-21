@@ -36,8 +36,8 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearLayout2"
         app:srcCompat="@drawable/bear_text" />
@@ -57,7 +57,7 @@
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#B4F8C8"
         android:fontFamily="sans-serif-black"
         android:text="4"
@@ -70,8 +70,8 @@
         android:id="@+id/da2"
         android:layout_width="120dp"
         android:layout_height="50dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#A0E7E5"
         android:fontFamily="sans-serif-black"
         android:text="2"
@@ -107,5 +107,20 @@
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/da3"
         app:layout_constraintTop_toBottomOf="@+id/da2" />
+
+    <ImageButton
+        android:id="@+id/btnhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/home_button" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

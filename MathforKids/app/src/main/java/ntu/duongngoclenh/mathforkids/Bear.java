@@ -27,6 +27,7 @@ public class Bear extends AppCompatActivity {
         Button da2 = findViewById(R.id.da2);
         Button da3 = findViewById(R.id.da3);
         Button da4 = findViewById(R.id.da4);
+        Button home = findViewById(R.id.btnhome);
         da1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
