@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,6 +40,14 @@ public class Mode extends AppCompatActivity {
             public void onClick(View v) {
                 Intent match = new Intent(Mode.this,Match.class);
                 startActivity(match);
+            }
+        });
+        ImageButton home = findViewById(R.id.btnhome);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent cbhome = new Intent(Mode.this,MainActivity.class);
+                startActivity(cbhome);
             }
         });
     }
