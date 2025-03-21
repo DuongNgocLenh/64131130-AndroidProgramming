@@ -52,57 +52,62 @@
         app:layout_constraintTop_toBottomOf="@id/imageView4"
         app:srcCompat="@drawable/bear_img" />
 
-    <LinearLayout
-        android:id="@+id/buttonLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+    <Button
+        android:id="@+id/da3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/imageView6"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:text="8"
+        android:textColor="#FFD76D"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/da2"
+        tools:backgroundTint="#FBE7C6"
+        tools:layout_editor_absoluteX="216dp" />
+
+    <Button
+        android:id="@+id/da2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:text="2"
+        android:textColor="#1BA7A6"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/da1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:backgroundTint="#A0E7E5" />
+
+    <Button
+        android:id="@+id/da1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:text="4"
+        android:textColor="#18B74B"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:backgroundTint="#B4F8C8" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/da1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:backgroundTint="#2196F3"
-                android:text="4" />
-
-            <Button
-                android:id="@+id/da2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#03A9F4"
-                android:text="2" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="16dp">
-
-            <Button
-                android:id="@+id/da3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:backgroundTint="#03A9F4"
-                android:text="6" />
-
-            <Button
-                android:id="@+id/da4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#03A9F4"
-                android:text="8" />
-        </LinearLayout>
-    </LinearLayout>
+    <Button
+        android:id="@+id/da3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="sans-serif-black"
+        android:text="6"
+        android:textColor="#BE3E53"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/da1"
+        tools:backgroundTint="#FFAEBC" />
 </androidx.constraintlayout.widget.ConstraintLayout>
