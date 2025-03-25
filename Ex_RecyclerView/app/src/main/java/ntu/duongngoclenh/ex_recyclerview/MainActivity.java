@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -25,13 +26,20 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        recyclerdata = getDataForRecyclerView();
+        recyclerViewLandScape = findViewById(R.id.recycler_land);
+        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+        recyclerViewLandScape.setLayoutManager(layoutLinear);
+        landScapeAdapter = new LandScapeAdapter(this,recyclerdata);
+        recyclerViewLandScape.setAdapter(landScapeAdapter);
 
     }
     ArrayList<LandScape> getDataForRecyclerView(){
         ArrayList<LandScape> dsdulieu = new ArrayList<LandScape>();
-        LandScape LandScape1 =  new LandScape("tower_eiffel","Thap Eiffel");
-        dsdulieu.add(LandScape1);
-        dsdulieu.add(new LandScape("tower_panaga","Thap ba Panaga"))
-
+        dsdulieu.add(new LandScape("tower_eiffel","Thap Eiffel"));
+        dsdulieu.add(new LandScape("tower_panaga","Thap ba Panaga"));
+        dsdulieu.add(new LandScape("tower_tokyo","Thap Tokyo"));
+        dsdulieu.add(new LandScape("tower_bigben","Thap Big Ben"));
+        return dsdulieu;
     }
 }
