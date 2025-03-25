@@ -7,9 +7,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+    LandScapeAdapter landScapeAdapter;
+    ArrayList<LandScape> recyclerdata;
+    RecyclerView recyclerViewLandScape;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +25,13 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+    }
+    ArrayList<LandScape> getDataForRecyclerView(){
+        ArrayList<LandScape> dsdulieu = new ArrayList<LandScape>();
+        LandScape LandScape1 =  new LandScape("tower_eiffel","Thap Eiffel");
+        dsdulieu.add(LandScape1);
+        dsdulieu.add(new LandScape("tower_panaga","Thap ba Panaga"))
+
     }
 }

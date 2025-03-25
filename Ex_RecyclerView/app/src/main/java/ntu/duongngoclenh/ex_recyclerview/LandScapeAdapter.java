@@ -57,7 +57,7 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
         public ItemLandHolder(@NonNull View itemView) {
             super(itemView);
             tvCaption = itemView.findViewById(R.id.textCaption);
-            imageViewLandscape = itemView.findViewById(R.id.imgLanscape)
+            imageViewLandscape = itemView.findViewById(R.id.imgLanscape);
         }
     }
 }
