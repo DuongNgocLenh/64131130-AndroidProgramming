@@ -1,7 +1,8 @@
 # 64131130 - Android Programming  
 📌 **Lưu trữ bài tập**  
 ## 🔹Recycler
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/73d500e6-38c6-4978-8244-1ec987056586)
+
 
 ---
 ## 🔹Match for kids
