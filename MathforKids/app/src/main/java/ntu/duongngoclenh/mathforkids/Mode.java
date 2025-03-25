@@ -38,7 +38,7 @@ public class Mode extends AppCompatActivity {
         match.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent match = new Intent(Mode.this,Match.class);
+                Intent match = new Intent(Mode.this,Match.\class);
                 startActivity(match);
             }
         });
