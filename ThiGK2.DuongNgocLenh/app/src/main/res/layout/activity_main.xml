@@ -67,5 +67,5 @@
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/Anh" />
+        app:srcCompat="@drawable/anh" />
 </androidx.constraintlayout.widget.ConstraintLayout>
