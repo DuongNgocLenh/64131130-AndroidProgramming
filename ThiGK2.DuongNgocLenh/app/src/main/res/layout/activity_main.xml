@@ -52,7 +52,9 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="#80E72E"
         android:text="Chức năng 2"
+        android:textColor="#090808"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
@@ -63,7 +65,9 @@
         android:layout_height="60dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#80E72E"
         android:text="Chức năng 3"
+        android:textColor="#090808"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
 
@@ -74,7 +78,9 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="#80E72E"
         android:text="Chức năng 4"
+        android:textColor="#090808"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/btn3" />
@@ -86,8 +92,25 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="#80E72E"
         android:text="About Me"
+        android:textColor="#090808"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#80E72E"
+        android:text="Làm thêm"
+        android:textColor="#090808"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/btn4" />
 
