@@ -7,33 +7,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="92dp"
-        android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+    <!-- Layout chứa logo -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#D0E8FF"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logontu" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/logontu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Hình ảnh chính -->
+
+    <!-- Các nút chức năng -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="96dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        app:srcCompat="@drawable/anh" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
         android:text="Chức năng 2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
         android:text="Chức năng 3"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/btn2" />
@@ -42,9 +71,11 @@
         android:id="@+id/btn4"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
         android:text="Chức năng 4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/btn3" />
 
@@ -52,20 +83,12 @@
         android:id="@+id/btnMe"
         android:layout_width="130dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:text="About Me"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/btn4" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="330dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="80dp"
-        android:scaleType="fitXY"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/anh" />
 </androidx.constraintlayout.widget.ConstraintLayout>
