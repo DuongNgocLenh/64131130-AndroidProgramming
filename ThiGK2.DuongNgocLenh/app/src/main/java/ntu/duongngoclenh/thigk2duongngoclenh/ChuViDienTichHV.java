@@ -26,7 +26,7 @@ public class ChuViDienTichHV extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chu_vi_dien_tich_hv); // Sửa lại layout đúng
+        setContentView(R.layout.activity_chu_vi_dien_tich_hv);
         TimDieuKhien();
     }
 
