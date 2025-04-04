@@ -1,6 +1,8 @@
 package ntu.duongngoclenh.thigk2duongngoclenh;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -25,5 +27,33 @@ public class MainActivity extends AppCompatActivity {
         Button cn3 = findViewById(R.id.btn3);
         Button cn4 = findViewById(R.id.btn4);
         Button me = findViewById(R.id.btnMe);
+        cn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mh2 = new Intent(MainActivity.this, ChucNang2.class);
+                startActivity(mh2);
+            }
+        });
+        cn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mh3 = new Intent(MainActivity.this, ChucNang3.class);
+                startActivity(mh3);
+            }
+        });
+        cn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mh4 = new Intent(MainActivity.this, ChucNang4.class);
+                startActivity(mh4);
+            }
+        });
+        me.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent aboutme = new Intent(MainActivity.this, AboutMe.class);
+                startActivity(aboutme);
+            }
+        });
     }
 }
