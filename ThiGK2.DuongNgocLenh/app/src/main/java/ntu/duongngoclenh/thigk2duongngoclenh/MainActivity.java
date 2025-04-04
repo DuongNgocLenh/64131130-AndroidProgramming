@@ -1,6 +1,7 @@
 package ntu.duongngoclenh.thigk2duongngoclenh;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Button cn2 = findViewById(R.id.btn2);
+        Button cn3 = findViewById(R.id.btn3);
+        Button cn4 = findViewById(R.id.btn4);
+        Button me = findViewById(R.id.btnMe);
     }
 }
