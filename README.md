@@ -1,5 +1,17 @@
 # 64131130 - Android Programming  
-📌 **Lưu trữ bài tập**  
+📌 **Lưu trữ bài tập** 
+## 🔹Fragment Replacing Dynamic
+![image](https://github.com/user-attachments/assets/2a249988-6325-4535-8e60-5840c66cf57f)
+![image](https://github.com/user-attachments/assets/c4ffc52b-e891-40c0-99c8-dd1f39ce5359)
+![image](https://github.com/user-attachments/assets/2cde9b70-d52e-468a-9d5c-dbb367ee00d9)
+![image](https://github.com/user-attachments/assets/e00b1120-4368-426b-bca6-cf4129b67430)
+
+## 🔹Fragment Dynamic
+![image](https://github.com/user-attachments/assets/24b08640-9f90-49fc-a6ed-1f2f97eff8d7)
+
+## 🔹Fragment Static
+![image](https://github.com/user-attachments/assets/62814185-7168-47fc-b72e-7ae5562e5daf)
+
 ## 🔹Recycler
 ![image](https://github.com/user-attachments/assets/73d500e6-38c6-4978-8244-1ec987056586)
 
