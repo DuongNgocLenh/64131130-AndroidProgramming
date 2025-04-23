@@ -1,5 +1,11 @@
 # 64131130 - Android Programming  
 📌 **Lưu trữ bài tập** 
+## 🔹Luyện tập_Fragment Replacing Dynamic
+![image](https://github.com/user-attachments/assets/6eb905e1-23e7-4f17-9102-c3af9d3b402e)
+![image](https://github.com/user-attachments/assets/83b9cbde-2275-41ce-a1db-7e700c7f2797)
+![image](https://github.com/user-attachments/assets/b2edb77d-d9dd-41de-84ae-edf33468dc55)
+
+
 ## 🔹Fragment Replacing Dynamic
 ![image](https://github.com/user-attachments/assets/2a249988-6325-4535-8e60-5840c66cf57f)
 ![image](https://github.com/user-attachments/assets/c4ffc52b-e891-40c0-99c8-dd1f39ce5359)
