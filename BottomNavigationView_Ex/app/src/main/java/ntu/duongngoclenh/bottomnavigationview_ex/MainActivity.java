@@ -2,6 +2,7 @@ package ntu.duongngoclenh.bottomnavigationview_ex;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -24,7 +25,15 @@ public class MainActivity extends AppCompatActivity {
         botnav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                return false;
+                int itemid = item.getItemId();
+                if(itemid == R.id.mnu_home){
+                    Toast.makeText(MainActivity.this,"Day la fragment Home",Toast.LENGTH_SHORT).show();
+                }else  if(itemid == R.id.mnu_search){
+                    Toast.makeText(MainActivity.this,"Day la fragment Search",Toast.LENGTH_SHORT).show();
+                }else  if(itemid == R.id.mnu_profile){
+                    Toast.makeText(MainActivity.this,"Day la fragment Profile",Toast.LENGTH_SHORT).show();
+                }else return false;
+                return true;
             }
         });
 
