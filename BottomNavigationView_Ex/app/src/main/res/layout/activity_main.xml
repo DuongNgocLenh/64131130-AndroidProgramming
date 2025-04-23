@@ -13,9 +13,21 @@
         android:layout_height="wrap_content"
         app:elevation="20dp"
         app:itemIconTint="@color/design_default_color_error"
+        app:itemTextColor="#C12A2A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bot_menu" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="ntu.duongngoclenh.bottomnavigationview_ex.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A61B1B"
+        app:layout_constraintBottom_toTopOf="@+id/bot_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
