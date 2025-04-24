@@ -1,5 +1,9 @@
 # 64131130 - Android Programming  
 📌 **Lưu trữ bài tập** 
+## 🔹Bottom Navigation
+![image](https://github.com/user-attachments/assets/bdedfaae-d107-4822-8782-2d7aa1c3d7cc)
+
+
 ## 🔹Luyện tập_Fragment Replacing Dynamic
 ![image](https://github.com/user-attachments/assets/6eb905e1-23e7-4f17-9102-c3af9d3b402e)
 ![image](https://github.com/user-attachments/assets/83b9cbde-2275-41ce-a1db-7e700c7f2797)
